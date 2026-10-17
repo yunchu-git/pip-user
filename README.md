@@ -1,10 +1,13 @@
 # pip-user
 pip支持库
 > [!IMPORTANT]
-> 本库使用MIT许可证，在分发时请保留署名！谢谢！
+> **本库使用MIT许可证，在分发时请保留署名！谢谢！**
 
 > [!WARNING]
 > 本库尚在开发阶段，可能有bug，如有bug请及时反馈，谢谢。
+
+> [!TIP]
+> 本库使用报错码形式报错均使用报错码形式（如2*000001等），可用[仓库yunchu-dev-specs](https://github.com/yunchu-git/yunchu-dev-specs)查看报错码
 
 python的pip是一个库，**但是官方不建议直接调用**，本库使用subprocess标准库执行命令的方式来进行pip的python调用，调用时调用名为pip_user
 
